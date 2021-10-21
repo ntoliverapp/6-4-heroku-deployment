@@ -10,6 +10,6 @@ res.sendFile(path.join(__dirname, "../index.html"));
 
 });
 
-const port = process.env.PORT || 4567;
+const port = process.env.PORT || 4000;
 
-app.listen(4000, () => console.log('4000 running'));
+app.listen(port, () => console.log(`${port}`));
