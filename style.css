@@ -37,19 +37,12 @@ p{
     align-items: center;
 }
 
-.blog-btn{
-    font-size: 3.5rem;
-    background: transparent;
-    border-color: transparent;
-    cursor: pointer;
-    color: snow;
-}
 
 .blog-text {
     border-top: 1px solid snow;
     padding-bottom: 8px;
     line-height: 1.6;
-    display: none;
+    display: block;
 }
 
 .show-text .blog-text{
