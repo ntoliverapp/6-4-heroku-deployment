@@ -9,14 +9,14 @@ app.get('/', function(req, res){
 res.sendFile(path.join(__dirname, "../index.html"));
 });
 
-app.get('/css', function(req, res){
+// app.get('/css', function(req, res){
 
-    res.sendFile(path.join(__dirname, "../style.css"));
-});
+//     res.sendFile(path.join(__dirname, "../style.css"));
+// });
 
-app.get('/js', function(req, res) {
-    res.sendFile(path.join(__dirname, "../main.js"))
-});
+// app.get('/js', function(req, res) {
+//     res.sendFile(path.join(__dirname, "../main.js"))
+// });
 
 const port = process.env.PORT || 4000;
 

@@ -1,4 +1,4 @@
-const blogs = document.querySelectorAll(".blog");
+var blogs = document.querySelectorAll(".blog");
 
 blogs.forEach(function(blog){
     const bth = blog.querySelector('.blog-btn')
